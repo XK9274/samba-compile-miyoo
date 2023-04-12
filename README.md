@@ -31,6 +31,8 @@ miyoodir=/mnt/SDCARD/miyoo
 
 export LD_LIBRARY_PATH="/lib:/config/lib:$miyoodir/lib:$sysdir/lib:$sysdir/lib/parasyte"
 
+
+
 ### Create an alias for the file with: 
 
 alias smbclient='/mnt/SDCARD/.tmp_update/bin/smbclient'
@@ -48,17 +50,29 @@ Take note of the "no password" section or you'll have trouble getting into your 
 
 ### Built in dir info
 
---prefix=/mnt/SDCARD/.tmp_update/samba 
+--prefix=/mnt/SDCARD/.tmp_update/samba
+
 --bindir=/mnt/SDCARD/.tmp_update/samba/bin  
+
 --sbindir=/mnt/SDCARD/.tmp_update/samba/sbin  
+
 --libexecdir=/mnt/SDCARD/.tmp_update/libexec 
+
 --sharedstatedir=/mnt/SDCARD/.tmp_update/samba/com  
+
 --sysconfdir=/mnt/SDCARD/.tmp_update/samba/conf 
+
 --localstatedir=/mnt/SDCARD/.tmp_update/samba/var 
+
 --libdir=/mnt/SDCARD/.tmp_update/lib 
+
 --includedir=/mnt/SDCARD/.tmp_update/include 
+
 --sharedstatedir=/mnt/SDCARD/.tmp_update/samba/var  
+
 --datarootdir=/mnt/SDCARD/.tmp_update/samba/share  
+
 --with-privatedir=/mnt/SDCARD/.tmp_update/samba/private 
+
 --with-bind-dns-dir=/mnt/SDCARD/.tmp_update/samba
 
