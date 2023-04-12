@@ -20,6 +20,7 @@ This build takes a while.
 Store your smb.conf file in /mnt/SDCARD/.tmp_update/samba/conf/
 
 Copy the required bins from the bin folder to the SDCARD to a suitable location (example /mnt/SDCARD/.tmp_update/bin)
+
 Copy the libs from the lib folder to the SDCARD to a suitable location (example /mnt/SDCARD/.tmp_update/lib)
 
 ### Update your env vars with the below from a terminal:
