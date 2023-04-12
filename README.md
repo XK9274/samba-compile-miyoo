@@ -47,32 +47,3 @@ You'll need to create a shared folder on windows to link to, this guide or simil
 https://pureinfotech.com/setup-network-file-sharing-windows-10/
 
 Take note of the "no password" section or you'll have trouble getting into your share as "Everyone"
-
-### Built in dir info
-
---prefix=/mnt/SDCARD/.tmp_update/samba
-
---bindir=/mnt/SDCARD/.tmp_update/samba/bin  
-
---sbindir=/mnt/SDCARD/.tmp_update/samba/sbin  
-
---libexecdir=/mnt/SDCARD/.tmp_update/libexec 
-
---sharedstatedir=/mnt/SDCARD/.tmp_update/samba/com  
-
---sysconfdir=/mnt/SDCARD/.tmp_update/samba/conf 
-
---localstatedir=/mnt/SDCARD/.tmp_update/samba/var 
-
---libdir=/mnt/SDCARD/.tmp_update/lib 
-
---includedir=/mnt/SDCARD/.tmp_update/include 
-
---sharedstatedir=/mnt/SDCARD/.tmp_update/samba/var  
-
---datarootdir=/mnt/SDCARD/.tmp_update/samba/share  
-
---with-privatedir=/mnt/SDCARD/.tmp_update/samba/private 
-
---with-bind-dns-dir=/mnt/SDCARD/.tmp_update/samba
-
