@@ -242,7 +242,7 @@ cd ..
 export CFLAGS="$CFLAGS -I$OPENSSL_INCLUDES"
 export LDFLAGS="$LDFLAGS -L$OPENSSL_LIBS $OPENSSL_LDFLAGS"
 
-#Python3.7.3 - compiles a basic version which is required by samba - quite a long compile/build - uses system level python 3.7.3 as interpreter to cross compile. Tests can take a while to run.
+#Python3.7.3 - compiles a basic version which is required by samba - uses system level python 3.7.3 as interpreter to cross compile
 tar -xf Python-3.7.3.tgz &
 wait $!
 cd Python-3.7.3
