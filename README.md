@@ -41,6 +41,12 @@ Run samba with:
 
 run: smbclient //ShareHost/Sharename
 
+## Scrape a directory to a local directory, can be added at boot, on command, etc.
+
+smbclient //xxxxxx/Share -U xxxxxx/Share -c "lcd /mnt/SDCARD/.tmp_update/sambamount; prompt; recurse; mget *"
+
+etc
+
 ### Windows shares
 
 You'll need to create a shared folder on windows to link to, this guide or similar guide will help you:
