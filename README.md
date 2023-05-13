@@ -7,7 +7,8 @@
 ```1. Open a shell in the location you wish to start your project in and run: git clone https://github.com/shauninman/union-miyoomini-toolchain.git
 2. Run: cd union-miyoomini-toolchain
 3. Run: make shell
-4. Make sure you're in the workspace directory now```
+4. Make sure you're in the workspace directory now
+```
 
 Copy the sambaBuild.sh script into the workspace directory.
 
