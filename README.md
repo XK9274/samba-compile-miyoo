@@ -25,25 +25,27 @@ Copy the libs from the lib folder to the SDCARD to a suitable location (example 
 
 ### Update your env vars with the below from a terminal:
 
+```
 sysdir=/mnt/SDCARD/.tmp_update
 
 miyoodir=/mnt/SDCARD/miyoo
 
 export LD_LIBRARY_PATH="/lib:/config/lib:$miyoodir/lib:$sysdir/lib:$sysdir/lib/parasyte"
+```
 
 
 
 ### Create an alias for the file with: 
 
-alias smbclient='/mnt/SDCARD/.tmp_update/bin/smbclient'
+`alias smbclient='/mnt/SDCARD/.tmp_update/bin/smbclient'`
 
 Run samba with:
 
-run: smbclient //ShareHost/Sharename
+`smbclient //ShareHost/Sharename`
 
 ## Scrape a directory to a local directory, can be added at boot, on command, etc.
 
-smbclient //xxxxxx/Share -U xxxxxx/Share -c "lcd /mnt/SDCARD/.tmp_update/sambamount; prompt; recurse; mget *"
+`smbclient //xxxxxx/Share -U xxxxxx/Share -c "lcd /mnt/SDCARD/.tmp_update/sambamount; prompt; recurse; mget *"`
 
 etc
 
