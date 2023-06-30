@@ -1,11 +1,17 @@
 # App instructions
 
 -> Download the App.zip file and unpack.
+
 -> Copy the samba folder to your MMP (/mnt/SDCARD/App/samba)
+
 -> Open the apps page (refresh by opening an app and closing again if it doesn't appear straight away)
+
 -> Press the app, smbd will start in the background. You'll get no feedback here
+
 -> In windows, browse to your MMP IP address, eg \\192.168.1.215
+
 -> There is some example shares created. Configure your own in /mnt/SDCARD/App/samba/etc/smb.conf
+
 
 # Samba compile instructions for Miyoo Mini+
 
